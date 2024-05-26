@@ -1,3 +1,4 @@
+
 -- String manipulations
 /* 1. Some product names in the product table have descriptions like "Jar" or "Organic". 
 These are separated from the product name with a hyphen. 
@@ -74,6 +75,7 @@ FROM
     ranked_sales
 WHERE 
     sales_ascending = 1;
+
 
 -- Cross Join
 /*1. Suppose every vendor in the `vendor_inventory` table had 5 of each of their products to sell to **every** 
